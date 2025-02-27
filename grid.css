@@ -55,30 +55,17 @@ grid-area: sidebar_right;
 
 background-color:#2196F3;
 padding: 10px;
-display: grid;
-	grid-template-columns:50px 50px 50px 50px;
-	justify-content: space-around;
-	grid-gap: 20px;
-	background-color: #2196F3;
-	padding: 10px;
-	justify-items: stretch;	
-
+display: flex;
 }
 
 .footer a{
-	border-color: blue;
-	border-style: solid;
-	background-color: green;
-	width: 10%;
-	padding: 1px;
-	border-radius: 10px;
-	color: white;
-	justify-self: stretch;
-
+	border-color: rgb(83, 160, 124);
+	border-style: solid;	
 }
 
 .footer > div{
 	background-color: blue;
+	margin: 7%;
 }
 
 ul{
